@@ -1,0 +1,55 @@
+{
+    "data":{
+        "projects": [
+            {
+                "id": 0,
+                "project_name": "A Random Quote Generator",
+                "description": "Random quotes appear at timed intervals",
+                "technologies": ["HTML", "JavaScript", "CSS"],
+                "live_link": "https://kitkogan.github.io/jsfs-unit1-project/",
+                "github_link": "https://github.com/kitkogan/jsfs-unit1-project",
+                "image_urls": [""]
+            },
+
+            {
+                "id": 1,
+                "project_name": "List Pagination and Filtering",
+                "description": "Student list displays ten users per page (last page may hold less,) with page links and search function",
+                "technologies": ["HTML", "JavaScript", "CSS"],
+                "live_link": "https://kitkogan.github.io/jsfs-unit2-project/",
+                "github_link": "https://github.com/kitkogan/jsfs-unit2-project",
+                "image_urls": ""
+            },
+
+            {
+                "id": 2,
+                "project_name": "Interactive Form",
+                "description": "Registration form programmed to validate and accept specific user generated information, show real-time errors, and submit the form when completed successfully",
+                "technologies": ["HTML", "JavaScript", "CSS", "jQuery"],
+                "live_link": "https://kitkogan.github.io/jsfs-unit3-project/",
+                "github_link": "https://github.com/kitkogan/jsfs-unit3-project",
+                "image_urls": ""
+            },
+
+            {
+                "id": 3,
+                "project_name": "OOP Game Show App",
+                "description": "Game app that allows player to guess the letters in a secret phrase",
+                "technologies": ["HTML", "JavaScript", "CSS", "OOP JS"],
+                "live_link": "https://kitkogan.github.io/jsfs-unit4-project/",
+                "github_link": "https://github.com/kitkogan/jsfs-unit4-project",
+                "image_urls": ""
+            },
+
+            {
+                "id": 4,
+                "project_name": "Public API Request",
+                "description": "Employee directory app created using random user generator API",
+                "technologies": ["HTML", "JavaScript", "CSS", "AJAX"],
+                "live_link": "https://kitkogan.github.io/jsfs-unit5-project/",
+                "github_link": "https://github.com/kitkogan/jsfs-unit5-project",
+                "image_urls": ""
+            }
+        ]
+    }    
+}
