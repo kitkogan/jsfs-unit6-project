@@ -8,7 +8,7 @@
                 "technologies": ["HTML", "JavaScript", "CSS"],
                 "live_link": "https://kitkogan.github.io/jsfs-unit1-project/",
                 "github_link": "https://github.com/kitkogan/jsfs-unit1-project",
-                "image_urls": [""]
+                "image_urls": ["/static/images/p1ex1.png", "/static/images/p1ex2.png", "/static/images/p1ex3.png", "/static/images/p1main1.png", "/static/images/p1main2.png"]
             },
 
             {
@@ -18,7 +18,7 @@
                 "technologies": ["HTML", "JavaScript", "CSS"],
                 "live_link": "https://kitkogan.github.io/jsfs-unit2-project/",
                 "github_link": "https://github.com/kitkogan/jsfs-unit2-project",
-                "image_urls": ""
+                "image_urls": ["/static/images/p2ex1.png", "/static/images/p2ex2.png", "/static/images/p2ex3.png", "/static/images/p2main1.png", "/static/images/p2main2.png"]
             },
 
             {
@@ -28,7 +28,7 @@
                 "technologies": ["HTML", "JavaScript", "CSS", "jQuery"],
                 "live_link": "https://kitkogan.github.io/jsfs-unit3-project/",
                 "github_link": "https://github.com/kitkogan/jsfs-unit3-project",
-                "image_urls": ""
+                "image_urls": ["/static/images/p3ex1.png", "/static/images/p3ex2.png", "/static/images/p3ex3.png", "/static/images/p3main1.png", "/static/images/p3main2.png"]
             },
 
             {
@@ -38,7 +38,7 @@
                 "technologies": ["HTML", "JavaScript", "CSS", "OOP JS"],
                 "live_link": "https://kitkogan.github.io/jsfs-unit4-project/",
                 "github_link": "https://github.com/kitkogan/jsfs-unit4-project",
-                "image_urls": ""
+                "image_urls": ["/static/images/p4ex1.png", "/static/images/p4ex2.png", "/static/images/p4ex3.png", "/static/images/p4main1.png", "/static/images/p4main2.png"]
             },
 
             {
@@ -48,7 +48,7 @@
                 "technologies": ["HTML", "JavaScript", "CSS", "AJAX"],
                 "live_link": "https://kitkogan.github.io/jsfs-unit5-project/",
                 "github_link": "https://github.com/kitkogan/jsfs-unit5-project",
-                "image_urls": ""
+                "image_urls": ["/static/images/p5ex1.png", "/static/images/p5ex2.png", "/static/images/p5ex3.png", "/static/images/p5main1.png", "/static/images/p5main2.png"]
             }
         ]
     }    
