@@ -1,8 +1,3 @@
-//set routes: "index" route (/) to render "Home" page w locals set to data.rojects
-    //an "about" route (/about) to render "About" page
-    //dynamic "project" routes (/rpoject or /projects) based on id of project that renders a customized version of Pug project template to show off each proj
-        //meaning: adding data, or "locals" as an object that contains data to be passed to Pug template
-//start server. should listn on port 3000 and log string to console that says which port app is listening to
 
 // add required packages
 const express = require('express');
@@ -15,21 +10,48 @@ const projectData = data.projects
 // app route
 const app = express();
 
-// set listen on port 3000
-app.listen(3000);
-
 // set view engine to pug
 app.set('view engine', 'pug');
 
 // set static route to serve static files in public folder
 app.use('/static', express.static('public'));
 
-// set home route
+// set "home" route
 app.get('/', (req, res) => {
     res.locals.projects = projectData;
     res.render('index', {projects: res.locals.projects});
-
-    console.log("Port 3000 is working!")
 });
 
+// set "about" route
+app.get('about', (req, res) => {
+    res.render('about');
+});
 
+// set "project" routes
+app.get('/projects/:id', (req, res) => {
+    const query = req.params.id
+    res.locals.project = projectData[query]
+    res.render('project')
+});
+
+// add static css routes
+app.use('/static/css', express.static('public'))
+
+// add middleware for catching errors
+app.use((req, res, next) => {
+    const err = new Error("Not found");
+    res.locals.error = err
+    err.status = 404;
+    res.render('error')
+});
+
+app.use((err, req, res, next) => {
+    res.locals.error = err
+    console.log(`Sorry, we seem to have encountered an error!: ${err.status}`);
+    res.render('error')
+});
+
+// set listen on port 3000
+app.listen(3000, () => {
+    console.log("Port 3000 is working!")
+});
