@@ -14,7 +14,7 @@ const app = express();
 app.set('view engine', 'pug');
 
 // set static route to serve static files in public folder
-app.use('/static', express.static('public'));
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 // set "home" route
 app.get('/', (req, res) => {
@@ -39,7 +39,7 @@ app.use('/static/css', express.static('public'))
 
 // add middleware for catching errors
 app.use((req, res, next) => {
-    const err = new Error("Not found");
+    const err = new Error("Uh-oh! Page not found!");
     res.locals.error = err
     err.status = 404;
     res.render('error')
