@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 });
 
 // set "about" route
-app.get('about', (req, res) => {
+app.get('/about', (req, res) => {
     res.render('about');
 });
 
@@ -39,7 +39,7 @@ app.use('/static/css', express.static('public'))
 
 // add middleware for catching errors
 app.use((req, res, next) => {
-    const err = new Error("Uh-oh! Page not found!");
+    const err = new Error('Uh-oh! Page not found!')
     res.locals.error = err
     err.status = 404;
     res.render('error')
