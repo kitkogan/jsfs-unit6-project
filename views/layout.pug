@@ -14,7 +14,8 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='static/images/me.jpg')
+            img(src=('/static/images/me.jpg'))
+
           .cell.auto
 
             //- Add your name here.
@@ -22,7 +23,7 @@ html(class="no-js" lang="en" dir="ltr")
 
             //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
-              | Multicapable musician, maker of things, and snuggler of cats living in Minneapolis, MN.
+              | Multi-capable musician, maker of things, and snuggler of cats living in Minneapolis, MN.
 
             //- Add about page route to the href below. 
             a(href='/about') Learn More →

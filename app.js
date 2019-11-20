@@ -11,6 +11,8 @@ const projectData = data.projects
 const app = express();
 
 // set view engine to pug
+
+
 app.set('view engine', 'pug');
 
 // set static route to serve static files in public folder
