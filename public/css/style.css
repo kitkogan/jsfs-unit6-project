@@ -32,10 +32,14 @@ h1,h2,h3,h4,h5,p{
 
 .button{
   background-color: #333;
+  transition: transform 1s; /* Animation */
+  
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: rgb(175, 28, 163);
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 
 a{
@@ -52,26 +56,29 @@ a:hover{
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
   line-height: 0;
+  transition: none !important;
+  transform: none !important;
 }
+
 
 .portfolio-me{
   padding: 20px;
   background: #121213;
-  color: #fff;
+  color: rgb(224, 233, 233);
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgba(146, 194, 194, 0.932);
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: rgb(158, 155, 155);
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,7 +86,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(175, 28, 163);
   }
 
 .portfolio-breadcrumb{
