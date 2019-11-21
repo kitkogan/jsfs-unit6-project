@@ -17,4 +17,4 @@
 
         |1) changing the colors of the self-description text section in the sidebar, the hover color for the buttons, and the main body background color. 
         |2) changing the style of the box shadows for the larger images within each individual project page
-        |3) adding transition effects to expand the buttons (so they shift color AND grow in size on hover at specified size and duration.) I also implemented this same growth effect for the square shaped images in the main gallery. This also applied to my profile pic which will make more sense once I link my resume page to the profile (may or may not happen before I officially submit my project but will be updated soon if not.)
+        |3) adding transition effects to expand the buttons (so they shift color AND grow in size on hover at specified size and duration.) I also implemented this same growth effect for the square shaped images in the main gallery. This also applied to my profile pic which links to a resume page I made. I didn't want the growth effect to apply to the bigger project images so I also added css to stop those from inhereting it.
