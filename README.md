@@ -15,6 +15,6 @@
  |3) customizing the css from selecting at least 3 elements from a supplied list.
     I accomplished this by:
 
-        |1) changing the colors of the self-description text section in the sidebar, the hover color for the buttons, and the main body background color. 
+        |1) changing the colors of the self-description text section in the sidebar, the hover color of the "Learn More" link text, the hover color for the buttons, and the main body background color. 
         |2) changing the style of the box shadows for the larger images within each individual project page
-        |3) adding transition effects to expand the buttons (so they shift color AND grow in size on hover at specified size and duration.) I also implemented this same growth effect for the square shaped images in the main gallery. This also applied to my profile pic which links to a resume page I made. I didn't want the growth effect to apply to the bigger project images so I also added css to stop those from inhereting it.
+        |3) adding transition effects to expand the buttons (so they shift color AND grow in size on hover at specified size and duration.) I also implemented this same growth effect for the square shaped images in the main gallery. This also applied to my profile pic which links to a resume page I had previously made for a non-treehouse project. I didn't want the growth effect to apply to the bigger project images so I also added the correct css to stop those from inhereting it.
