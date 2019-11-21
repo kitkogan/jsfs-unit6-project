@@ -26,27 +26,6 @@ app.use('/', indexRouter);
 app.use('/about', aboutRouter);
 app.use('/project', projectRouter);
 
-// set "home" route
-app.get('/', (req, res) => {
-    res.locals.projects = projectData;
-    res.render('index', {projects: res.locals.projects});
-});
-
-// set "about" route
-app.get('/about', (req, res) => {
-    res.render('about');
-});
-
-// set "project" routes
-app.get('/projects/:id', (req, res) => {
-    const query = req.params.id
-    res.locals.project = projectData[query]
-    res.render('project')
-});
-
-// add static css routes
-app.use('/static/css', express.static('public'))
-
 // add middleware for catching errors
 app.use((req, res, next) => {
     const err = new Error('Uh-oh! Page not found!');
