@@ -155,3 +155,12 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.backlink404 {
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.backlink404:hover {
+  color: rgb(175, 28, 163);
+}

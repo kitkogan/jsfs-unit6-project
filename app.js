@@ -4,19 +4,27 @@ const express = require('express');
 const path = require('path');
 
 // add required data
-const data = require('./data/data.json').data;
-const projectData = data.projects
+const { projects } = require('./data/data.json');
 
-// app route
+
+// add app routes
 const app = express();
+const router = express.Router();
+
+const indexRouter = require('./routes/index');
+const aboutRouter = require('./routes/about');
+const projectRouter = require('./routes/project');
 
 // set view engine to pug
-
-
 app.set('view engine', 'pug');
 
 // set static route to serve static files in public folder
 app.use('/static', express.static(path.join(__dirname, 'public')));
+
+// set page routes
+app.use('/', indexRouter);
+app.use('/about', aboutRouter);
+app.use('/project', projectRouter);
 
 // set "home" route
 app.get('/', (req, res) => {
@@ -41,15 +49,15 @@ app.use('/static/css', express.static('public'))
 
 // add middleware for catching errors
 app.use((req, res, next) => {
-    const err = new Error('Uh-oh! Page not found!')
-    res.locals.error = err
+    const err = new Error('Uh-oh! Page not found!');
     err.status = 404;
-    res.render('error')
+    next('err');
 });
 
 app.use((err, req, res, next) => {
     res.locals.error = err
-    console.log(`Sorry, we seem to have encountered an error!: ${err.status}`);
+    res.status(err.status);
+    console.log(err.message, err.status, err.stack);
     res.render('error')
 });
 
