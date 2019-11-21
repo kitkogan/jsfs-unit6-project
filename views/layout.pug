@@ -14,18 +14,19 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            a(href='https://kitkogan.github.io/resume/')
+            //- adds a link to an external resume page when profile photo is clicked
+            a(href='https://kitkogan.github.io/resume/') 
               img(src=('/static/images/me.jpg'))
           .cell.auto
 
-            //- Add your name here.
+            //- my name for the sidebar
             h5 Kit Kogan
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
+            //- short fun teaser bio for sidebar
             p.text-light
               | Multi-capable musician, maker of things, and snuggler of cats living in Minneapolis, MN.
 
-            //- Add about page route to the href below. 
+            //- route to About page
             a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -33,7 +34,7 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
+          //- name info for mobile
           span.title-bar-title Kit Kogan
       block content
         
