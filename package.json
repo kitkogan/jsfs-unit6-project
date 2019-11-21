@@ -9,7 +9,7 @@
     },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kitkogan/jsfs-unit6-project"
+    "url": "https://github.com/kitkogan/jsfs-unit6-project"
   },
   "author": "Kit Kogan",
   "license": "ISC",
