@@ -47,7 +47,7 @@ a{
 }
 
 a:hover{
-  color: #111;
+  color: rgb(175, 28, 163);;
 }
 
 .image{
@@ -154,13 +154,4 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
-}
-
-.backlink {
-  margin-left: 40px;
-  margin-right: auto;
-}
-
-.backlink:hover {
-  color: rgb(175, 28, 163);
 }

@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kitkogan/jsfs-unit6-project"
+    "url": "git+https://github.com/kitkogan/kitkogan.github.io"
   },
   "author": "Kit Kogan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kitkogan/jsfs-unit6-project/issues"
+    "url": "https://github.com/kitkogan/kitkogangithub.io/issues"
   },
-  "homepage": "https://kitkogan.github.io/jsfs-unit6-project/",
+  "homepage": "https://kitkogan.github.io/",
   "dependencies": {
     "body-parser": "^1.19.0",
     "colors": "^1.4.0",
