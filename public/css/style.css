@@ -156,11 +156,11 @@ a:hover{
     line-height: 25px;
 }
 
-.backlink404 {
+.backlink {
   margin-left: 40px;
   margin-right: auto;
 }
 
-.backlink404:hover {
+.backlink:hover {
   color: rgb(175, 28, 163);
 }

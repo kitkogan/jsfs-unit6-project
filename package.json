@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kitkogan/jsfs-unit6-project"
@@ -23,7 +23,8 @@
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "path": "^0.12.7",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "start": "^5.1.0"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1"
