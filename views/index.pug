@@ -5,7 +5,7 @@ block content
     div
 
       //- Heading for project gallery 
-      h1 Potential employers and collaborators: enjoy some samples of my work!
+      h1 Potential collaborators: Please enjoy some samples of my work!
 
       //- Description of the purpose of portfolio website and projects contianed in it 
 
@@ -27,7 +27,7 @@ block content
       //- a combination of interpolation and template literals used to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       each project in projects
         .cell
-          a(href= `projects/${project.id}`)
+          a(href=`projects/${project.id}`)
             image.thumbnail(src=`${project.image_urls[3]}`)
             h5= project.project_name
       
