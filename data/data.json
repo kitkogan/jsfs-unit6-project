@@ -56,7 +56,7 @@
             "technologies": ["React", "Express", "Node", "CSS"],
             "live_link": "https://kits-react-gallery-app.herokuapp.com/",
             "github_link": "https://github.com/kitkogan/react-gallery",
-            "image_urls": ["/static/images/p6ex1.png", "/static/images/p6ex2.png", "/static/images/p6main1.png", "static/images/p6main2.png"]
+            "image_urls": ["/static/images/p6ex1.png", "/static/images/p6ex2.png", "/static/images/p6ex3.png", "static/images/p6main1.png"]
 
         }
     ]
