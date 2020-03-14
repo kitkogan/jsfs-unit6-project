@@ -48,6 +48,16 @@
             "live_link": "https://kitkogan.github.io/jsfs-unit5-project/",
             "github_link": "https://github.com/kitkogan/jsfs-unit5-project",
             "image_urls": ["/static/images/p5ex1.png", "/static/images/p5ex2.png", "/static/images/p5ex3.png", "/static/images/p5main1.png", "/static/images/p5main2.png"]
+        },
+        {
+            "id": 5,
+            "project_name": "React Gallery App",
+            "description": "An interactive photo gallery created with React",
+            "technologies": ["React", "Express", "Node", "CSS"],
+            "live_link": "https://kits-react-gallery-app.herokuapp.com/",
+            "github_link": "https://github.com/kitkogan/react-gallery",
+            "image_urls": ["/static/images/p6ex1.png", "/static/images/p6ex2.png", "/static/images/p6main.png"]
+
         }
     ]
 }    
