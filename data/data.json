@@ -64,6 +64,7 @@
             "project_name": "React Native Chat App",
             "description": "A simple chat app created with React Native and Socket.io",
             "technologies": ["React Native", "Node", "Socket.io"],
+            "live_link": "https://github.com/kitkogan/react-native-chat-app",
             "github_link": "https://github.com/kitkogan/react-native-chat-app",
             "image_urls": ["/static/images/p7ex1.png", "/static/images/p7ex2.png", "/static/images/p7ex3.png", "static/images/p7main1.png"]
 
