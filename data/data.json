@@ -68,6 +68,16 @@
             "github_link": "https://github.com/kitkogan/react-native-chat-app",
             "image_urls": ["/static/images/p7ex1.png", "/static/images/p7ex2.png", "/static/images/p7ex3.png", "static/images/p7main1.png"]
 
+        },
+        {
+            "id": 7,
+            "project_name": "React Movie Gallery",
+            "description": "A movie gallery created with React, Redux, and Sagas",
+            "technologies": ["React", "Node", "Redux", "Sagas", "Axios", "PosgreSQL", "CSS"],
+            "live_link": "https://react-sagas-movie-project.herokuapp.com/#/",
+            "github_link": "https://github.com/kitkogan/movie-sagas-master",
+            "image_urls": ["/static/images/p6ex1.png", "/static/images/p8ex2.png", "/static/images/p9ex3.png", "static/images/p8main1.png"]
+
         }
     ]
 }    
