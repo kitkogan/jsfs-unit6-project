@@ -78,6 +78,16 @@
             "github_link": "https://github.com/kitkogan/movie-sagas-master",
             "image_urls": ["/static/images/p8ex1.png", "/static/images/p8ex2.png", "/static/images/p8ex3.png", "static/images/p8main1.png"]
 
+        },
+        {
+            "id": 8,
+            "project_name": "Express To-Do List App",
+            "description": "A To-Do List app created with Express, Ajax, and PostgreSQL",
+            "technologies": ["React", "Node", "Express", "Ajax", "PosgreSQL", "CSS", "Bootstrap"],
+            "live_link": "https://kits-to-do-list-app.herokuapp.com/",
+            "github_link": "https://github.com/kitkogan/weekend-sql-to-do-list",
+            "image_urls": ["/static/images/p9ex1.png", "/static/images/p9ex2.png", "/static/images/p9ex3.png", "static/images/p9main1.png"]
+
         }
     ]
 }    
