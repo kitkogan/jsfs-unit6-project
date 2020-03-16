@@ -88,6 +88,16 @@
             "github_link": "https://github.com/kitkogan/weekend-sql-to-do-list",
             "image_urls": ["/static/images/p9ex1.png", "/static/images/p9ex2.png", "/static/images/p9ex3.png", "static/images/p9main1.png"]
 
+        },
+        {
+            "id": 9,
+            "project_name": "jQuery Server-Side Calulator",
+            "description": "A basic calculator created with jQuery on the server side",
+            "technologies": ["jQuery", "Node", "Express", "Ajax", "CSS"],
+            "live_link": "https://sheltered-springs-13482.herokuapp.com/",
+            "github_link": "https://github.com/kitkogan/jquery-server-side-calculator",
+            "image_urls": ["/static/images/p10ex1.png", "/static/images/p10ex2.png", "/static/images/p10ex3.png", "static/images/p10main1.png"]
+
         }
     ]
 }    
