@@ -76,7 +76,7 @@
             "technologies": ["React", "Node", "Redux", "Sagas", "Axios", "PosgreSQL", "CSS"],
             "live_link": "https://react-sagas-movie-project.herokuapp.com/#/",
             "github_link": "https://github.com/kitkogan/movie-sagas-master",
-            "image_urls": ["/static/images/p6ex1.png", "/static/images/p8ex2.png", "/static/images/p9ex3.png", "static/images/p8main1.png"]
+            "image_urls": ["/static/images/p8ex1.png", "/static/images/p8ex2.png", "/static/images/p8ex3.png", "static/images/p8main1.png"]
 
         }
     ]
