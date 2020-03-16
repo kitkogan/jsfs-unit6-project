@@ -58,6 +58,15 @@
             "github_link": "https://github.com/kitkogan/react-gallery",
             "image_urls": ["/static/images/p6ex1.png", "/static/images/p6ex2.png", "/static/images/p6ex3.png", "static/images/p6main1.png"]
 
+        },
+        {
+            "id": 6,
+            "project_name": "React Native Chat App",
+            "description": "A simple chat app created with React Native and Socket.io",
+            "technologies": ["React Native", "Node", "Socket.io"],
+            "github_link": "https://github.com/kitkogan/react-native-chat-app",
+            "image_urls": ["/static/images/p6ex1.png", "/static/images/p6ex2.png", "/static/images/p6ex3.png", "static/images/p6main1.png"]
+
         }
     ]
 }    
