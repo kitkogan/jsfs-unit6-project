@@ -3,7 +3,7 @@
 
  This assignment asked students to create a portfolio website showcasing completed projects using static node.js and express.
 
- The instructions included denstrating knowledge of command line/git, npm, pug templates, setting up a server and using the terminal console to monitor connectons and catch errors, creating and navigating through directories, and generally building on the foundational concepts we have been practicing through the course so far.
+ The instructions included demonstrating knowledge of command line/git, npm, pug templates, setting up a server and using the terminal console to monitor connectons and catch errors, creating and navigating through directories, and generally building on the foundational concepts we have been practicing through the course so far.
 
  Additionally I chose to pursue the 'exceeds' options for extra credit in this project as well.
  These criteria include:
