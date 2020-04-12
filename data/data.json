@@ -98,6 +98,16 @@
             "github_link": "https://github.com/kitkogan/jquery-server-side-calculator",
             "image_urls": ["/static/images/p10ex1.png", "/static/images/p10ex2.png", "/static/images/p10ex3.png", "static/images/p10main1.png"]
 
+        },
+        {
+            "id": 10,
+            "project_name": "Kizzi App",
+            "description": "My solo project for Prime Digital Academy. This is a fullstack React app I created as an alternative idea in response to traditional dating apps. The ultimate goal of this app would be to allow users to match solely on zodiac compatibility and zip code. Is it love written in the stars?",
+            "technologies": ["React", "Node", "Express", "Axios", "CSS", "Redux", "Sagas"],
+            "live_link": "https://github.com/kitkogan/kizzi-app",
+            "github_link": "https://github.com/kitkogan/kizzi-app",
+            "image_urls": ["/static/images/p11ex1.png", "/static/images/p11ex2.png", "/static/images/p11ex3.png", "static/images/p11main1.png"]
+
         }
     ]
 }    
