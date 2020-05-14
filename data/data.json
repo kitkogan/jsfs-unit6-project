@@ -57,7 +57,6 @@
             "live_link": "https://kits-react-gallery-app.herokuapp.com/",
             "github_link": "https://github.com/kitkogan/react-gallery",
             "image_urls": ["/static/images/p6ex1.png", "/static/images/p6ex2.png", "/static/images/p6ex3.png", "static/images/p6main1.png"]
-
         },
         {
             "id": 6,
@@ -67,7 +66,6 @@
             "live_link": "https://github.com/kitkogan/react-native-chat-app",
             "github_link": "https://github.com/kitkogan/react-native-chat-app",
             "image_urls": ["/static/images/p7ex1.png", "/static/images/p7ex2.png", "/static/images/p7ex3.png", "static/images/p7main1.png"]
-
         },
         {
             "id": 7,
@@ -77,7 +75,6 @@
             "live_link": "https://react-sagas-movie-project.herokuapp.com/#/",
             "github_link": "https://github.com/kitkogan/movie-sagas-master",
             "image_urls": ["/static/images/p8ex1.png", "/static/images/p8ex2.png", "/static/images/p8ex3.png", "static/images/p8main1.png"]
-
         },
         {
             "id": 8,
@@ -87,7 +84,6 @@
             "live_link": "https://kits-to-do-list-app.herokuapp.com/",
             "github_link": "https://github.com/kitkogan/weekend-sql-to-do-list",
             "image_urls": ["/static/images/p9ex1.png", "/static/images/p9ex2.png", "/static/images/p9ex3.png", "static/images/p9main1.png"]
-
         },
         {
             "id": 9,
@@ -97,7 +93,6 @@
             "live_link": "https://sheltered-springs-13482.herokuapp.com/",
             "github_link": "https://github.com/kitkogan/jquery-server-side-calculator",
             "image_urls": ["/static/images/p10ex1.png", "/static/images/p10ex2.png", "/static/images/p10ex3.png", "static/images/p10main1.png"]
-
         },
         {
             "id": 10,
@@ -107,7 +102,15 @@
             "live_link": "https://github.com/kitkogan/kizzi-app",
             "github_link": "https://github.com/kitkogan/kizzi-app",
             "image_urls": ["/static/images/p11ex1.png", "/static/images/p11ex2.png", "/static/images/p11ex3.png", "static/images/p11main1.png"]
-
+        },
+        {
+            "id": 11,
+            "project_name": "Hope Chest Portal",
+            "description": "My final group project for Prime Digital Academy. This is a fullstack React app I helped create for our clients, Hope Chest for Breast Cancer. My team was asked to create a portal for Hope Chest's Cause Marketing Partners that would allow businesses or individuals to more easily submit fundraising event proposals, the primary funding source for Hope Chest's patient benefit grants. We made a React app that would allow users to create an account, submit the required form for their events, and allow users to publish their events to the calendar. There is also an admin view that allows the admininstrator to review submitted events and approve them for publication to the events calendar",
+            "technologies": ["React", "Node", "Express", "Axios", "CSS", "Redux", "Sagas", "Bootstrap", "React Big Calendar", "Moment.js"],
+            "live_link": "https://hope-chest-portal-k.herokuapp.com/",
+            "github_link": "https://github.com/kitkogan/Hope-Chest-Portal",
+            "image_urls": ["/static/images/p12ex1.png", "/static/images/p12ex2.png", "/static/images/p12ex3.png", "static/images/p12main1.png"]
         }
     ]
 }    
