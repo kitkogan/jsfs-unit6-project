@@ -116,7 +116,7 @@
             "id": 12,
             "project_name": "Real Estate Website",
             "description": "A fullstack web app created with Python and Django",
-            "technologies": ["Python", "Django", "Bootstrap"],
+            "technologies": ["Python", "Django", "Bootstrap", "SQL", "Postgres", "PgAdmin", "Django Core Mail"],
             "live_link": "https://github.com/kitkogan/btre_python_project",
             "github_link": "https://github.com/kitkogan/btre_python_project",
             "image_urls": ["/static/images/p13ex1.png", "/static/images/p13ex2.png", "/static/images/p13ex3.png", "static/images/p13main1.png"]
