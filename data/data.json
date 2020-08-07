@@ -111,6 +111,15 @@
             "live_link": "https://hope-chest-portal-k.herokuapp.com/",
             "github_link": "https://github.com/kitkogan/Hope-Chest-Portal",
             "image_urls": ["/static/images/p12ex1.png", "/static/images/p12ex2.png", "/static/images/p12ex3.png", "static/images/p12main1.png"]
+        },
+        {
+            "id": 12,
+            "project_name": "Real Estate Website",
+            "description": "A fullstack web app created with Python and Django",
+            "technologies": ["Python", "Django", "Bootstrap"],
+            "live_link": "https://github.com/kitkogan/btre_python_project",
+            "github_link": "https://github.com/kitkogan/btre_python_project",
+            "image_urls": ["/static/images/p13ex1.png", "/static/images/p13ex2.png", "/static/images/p13ex3.png", "static/images/p13main1.png"]
         }
     ]
 }    
