@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "id": 13,
+            "id": 0,
             "project_name": "A Random Quote Generator",
             "description": "Random quotes appear at timed intervals",
             "technologies": ["HTML", "JavaScript", "CSS"],
@@ -11,7 +11,7 @@
         },
 
         {
-            "id": 12,
+            "id": 1,
             "project_name": "List Pagination and Filtering",
             "description": "Student list displays ten users per page (last page may hold less,) with page links and search function",
             "technologies": ["HTML", "JavaScript", "CSS"],
@@ -21,7 +21,7 @@
         },
 
         {
-            "id": 11,
+            "id": 2,
             "project_name": "Interactive Form",
             "description": "Registration form programmed to validate and accept specific user generated information, show real-time errors, and submit the form when completed successfully",
             "technologies": ["HTML", "JavaScript", "CSS", "jQuery"],
@@ -31,7 +31,7 @@
         },
 
         {
-            "id": 10,
+            "id": 3,
             "project_name": "OOP Game Show App",
             "description": "Game app that allows player to guess the letters in a secret phrase",
             "technologies": ["HTML", "JavaScript", "CSS", "OOP JS"],
@@ -41,7 +41,7 @@
         },
 
         {
-            "id": 9,
+            "id": 4,
             "project_name": "Public API Request",
             "description": "Employee directory app created using random user generator API",
             "technologies": ["HTML", "JavaScript", "CSS", "AJAX"],
@@ -50,7 +50,7 @@
             "image_urls": ["/static/images/p5ex1.png", "/static/images/p5ex2.png", "/static/images/p5ex3.png", "/static/images/p5main1.png", "/static/images/p5main2.png"]
         },
         {
-            "id": 8,
+            "id": 5,
             "project_name": "React Gallery App",
             "description": "An interactive photo gallery created with React",
             "technologies": ["React", "Express", "Node", "CSS"],
@@ -59,7 +59,7 @@
             "image_urls": ["/static/images/p6ex1.png", "/static/images/p6ex2.png", "/static/images/p6ex3.png", "static/images/p6main1.png"]
         },
         {
-            "id": 7,
+            "id": 6,
             "project_name": "React Native Chat App",
             "description": "A simple chat app created with React Native and Socket.io",
             "technologies": ["React Native", "Node", "Socket.io"],
@@ -68,7 +68,7 @@
             "image_urls": ["/static/images/p7ex1.png", "/static/images/p7ex2.png", "/static/images/p7ex3.png", "static/images/p7main1.png"]
         },
         {
-            "id": 6,
+            "id": 7,
             "project_name": "React Movie Gallery",
             "description": "A movie gallery created with React, Redux, and Sagas",
             "technologies": ["React", "Node", "Redux", "Sagas", "Axios", "PosgreSQL", "CSS"],
@@ -77,7 +77,7 @@
             "image_urls": ["/static/images/p8ex1.png", "/static/images/p8ex2.png", "/static/images/p8ex3.png", "static/images/p8main1.png"]
         },
         {
-            "id": 5,
+            "id": 8,
             "project_name": "Express To-Do List App",
             "description": "A To-Do List app created with Express, Ajax, and PostgreSQL",
             "technologies": ["React", "Node", "Express", "Ajax", "PosgreSQL", "CSS", "Bootstrap"],
@@ -86,7 +86,7 @@
             "image_urls": ["/static/images/p9ex1.png", "/static/images/p9ex2.png", "/static/images/p9ex3.png", "static/images/p9main1.png"]
         },
         {
-            "id": 4,
+            "id": 9,
             "project_name": "jQuery Server-Side Calulator",
             "description": "A basic calculator created with jQuery on the server side",
             "technologies": ["jQuery", "Node", "Express", "Ajax", "CSS"],
@@ -95,7 +95,7 @@
             "image_urls": ["/static/images/p10ex1.png", "/static/images/p10ex2.png", "/static/images/p10ex3.png", "static/images/p10main1.png"]
         },
         {
-            "id": 3,
+            "id": 10,
             "project_name": "Kizzi App",
             "description": "My solo project for Prime Digital Academy. This is a fullstack React app I created as an alternative idea in response to traditional dating apps. The ultimate goal of this app would be to allow users to match solely on zodiac compatibility and zip code. Is it love written in the stars?",
             "technologies": ["React", "Node", "Express", "Axios", "CSS", "Redux", "Sagas"],
@@ -104,7 +104,7 @@
             "image_urls": ["/static/images/p11ex1.png", "/static/images/p11ex2.png", "/static/images/p11ex3.png", "static/images/p11main1.png"]
         },
         {
-            "id": 2,
+            "id": 11,
             "project_name": "Hope Chest Portal",
             "description": "My final group project for Prime Digital Academy. This is a fullstack React app I helped create for our clients, Hope Chest for Breast Cancer. My team was asked to create a portal for Hope Chest's Cause Marketing Partners that would allow businesses or individuals to more easily submit fundraising event proposals, the primary funding source for Hope Chest's patient benefit grants. We made a React app that would allow users to create an account, submit the required form for their events, and allow users to publish their events to the calendar. There is also an admin view that allows the admininstrator to review submitted events and approve them for publication to the events calendar",
             "technologies": ["React", "Node", "Express", "Axios", "CSS", "Redux", "Sagas", "Bootstrap", "React Big Calendar", "Moment.js"],
@@ -113,7 +113,7 @@
             "image_urls": ["/static/images/p12ex1.png", "/static/images/p12ex2.png", "/static/images/p12ex3.png", "static/images/p12main1.png"]
         },
         {
-            "id": 1,
+            "id": 12,
             "project_name": "Real Estate Website",
             "description": "A fullstack web app created with Python and Django",
             "technologies": ["Python", "Django", "Bootstrap", "SQL", "Postgres", "PgAdmin", "Django Core Mail"],
@@ -122,7 +122,7 @@
             "image_urls": ["/static/images/p13ex1.png", "/static/images/p13ex2.png", "/static/images/p13ex3.png", "static/images/p13main1.png"]
         },
         {
-            "id": 0,
+            "id": 13,
             "project_name": "StitchMommy App",
             "description": "A fullstack web app created with React",
             "technologies": ["React", "Node", "SQL", "Postico", "Postgres", "Express", "CSS", "pg", "SweetAlerts2"],
