@@ -120,6 +120,15 @@
             "live_link": "https://github.com/kitkogan/btre_python_project",
             "github_link": "https://github.com/kitkogan/btre_python_project",
             "image_urls": ["/static/images/p13ex1.png", "/static/images/p13ex2.png", "/static/images/p13ex3.png", "static/images/p13main1.png"]
+        },
+        {
+            "id": 13,
+            "project_name": "StitchMommy App",
+            "description": "A fullstack web app created with React",
+            "technologies": ["React", "Node", "SQL", "Postico", "Postgres", "Express", "CSS"],
+            "live_link": "https://github.com/kitkogan/btre_python_project",
+            "github_link": "https://github.com/kitkogan/btre_python_project",
+            "image_urls": ["/static/images/p13ex1.png", "/static/images/p13ex2.png", "/static/images/p13ex3.png", "static/images/p13main1.png"]
         }
     ]
 }    
